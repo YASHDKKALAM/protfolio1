@@ -1,0 +1,175 @@
+    body{
+        background-color: black;
+        color:white;
+        padding: 0vw 2vw 2vw 0vw;
+
+    }
+    #main{
+        
+        background: url("yash2.jpg") no-repeat center;
+        background-size: 75vw;
+        background-position: right;
+        
+        
+    }
+    h2{
+        float: left;
+        position: relative;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 2vw;
+    
+    }
+    li{
+    display: inline-block; 
+    float: right;
+    margin-top: 0.5vw;
+    }
+    a{
+        color: rgb(228, 220, 228);
+        padding: 20px;
+        font-size: 1.5vw;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+    li a:hover {
+        color: gold;
+    }
+    hr{
+        width: 10000vw;
+    }
+    img{
+        width: 23vw;
+        height: 25vw;
+        float: right;
+        padding: 1vw 1vw 1vw 1vw;
+    }
+    #name{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 2vw;
+    }
+    #hi{
+        margin-top: 100px;
+        margin-left: 7vw;
+    }
+    #yash{
+        margin-left: 7vw;
+    }
+    #web{
+        margin-left: 7vw;
+    }
+    #html{
+        margin-left: 7vw;
+        color: rgb(167, 162, 162)
+    }
+    #heading1{
+        text-align: center;
+        font-size: 3vw;
+    }
+    #skill{
+        text-align: right;
+        font-size: 3vw;
+    }
+      #course{
+          display: flex;
+        justify-content: space-between;
+        font-size: 2vw;
+      }
+      
+    #para1{
+        font-size: 2vw;
+        padding-left: 20px;
+    }
+    #work{
+        text-align: center;
+        font-size: 3vw
+    }
+    #para{
+        text-align: center;
+        font-size: 2vw;
+    }
+    #studies{
+        display: inline;
+        font-size: 1.5vw;
+        
+    }
+    #coriculum{
+        display: list-item;
+        float: right;
+        padding-right: 2px;
+        font-size: 1.5vw;
+    }
+
+
+
+    #con{
+        text-align: center;
+        padding-right:  20vw;
+         font-size: 2vw;
+        
+    }
+    #image{
+            height: 17vw;
+            width: 18vw;
+    }
+    #row::after {
+        align-items: center;
+        display: flex;
+      }
+    #name1{
+        font-size: 2.5vw;
+        color:rgb(5, 7, 7);
+    }
+    #college{
+        font-size: 1.7vw;
+        color: goldenrod;
+    }
+      .card {
+        box-shadow: 0 0.5vw 1.5vw 0 black;
+        max-width: 20vmax;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+        background-color: rgb(241, 239, 236);
+        margin-top: 1.2vw;
+      }
+      
+      .title {
+        color: grey;
+        font-size: 1.5vw;
+      }
+      
+      button {
+        border: none;
+        outline: 0.5vw;
+        display: inline-block;
+        padding: 1vw;
+        color: rgb(255, 255, 255);
+        background-color: rgb(78, 78, 76);
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 2vw;
+      }
+      
+
+      
+      button:hover, a:hover {
+        opacity: 0.7;
+      }
+    
+      .column1{
+        width: 50%;
+        height: 5vmax;
+        padding-bottom: 20px;
+    }
+    #contact
+    {
+        padding-left: 35vw;
+        padding-right: 20vw;
+        
+    }
+      
+      /* Clear floats after the columns */
+      
+      
+    
